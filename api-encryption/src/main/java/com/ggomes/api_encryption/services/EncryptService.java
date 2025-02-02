@@ -33,7 +33,7 @@ public class EncryptService {
         return repository.save(transaction);
     }
 
-    public void delete(Long id) {
+    public void deleteById(Long id) {
         if (!repository.existsById(id)) {
             throw new ResourceNotFoundException("Cannot delete, transaction not found with ID: " + id);
         }
