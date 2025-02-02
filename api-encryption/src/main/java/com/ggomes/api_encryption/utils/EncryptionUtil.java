@@ -46,6 +46,28 @@ public class EncryptionUtil {
         byte[] decodedKey = Base64.getDecoder().decode(base64Key);
         secretKey = new SecretKeySpec(decodedKey, ALGORITHM);
     }
+    
+    
+    public static String encrypt(String value) {
+        try {
+            Cipher cipher = Cipher.getInstance(ALGORITHM);
+            cipher.init(Cipher.ENCRYPT_MODE, secretKey);
+            return Base64.getEncoder().encodeToString(cipher.doFinal(value.getBytes()));
+        } catch (Exception e) {
+            throw new RuntimeException("Error encrypting data", e);
+        }
+    }
+
+
+    public static String decrypt(String encryptedValue) {
+        try {
+            Cipher cipher = Cipher.getInstance(ALGORITHM);
+            cipher.init(Cipher.DECRYPT_MODE, secretKey);
+            return new String(cipher.doFinal(Base64.getDecoder().decode(encryptedValue)));
+        } catch (Exception e) {
+            throw new RuntimeException("Error decrypting data", e);
+        }
+    }
 
     
 }
