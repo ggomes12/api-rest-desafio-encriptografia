@@ -8,7 +8,7 @@ import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 
-public class EncryptionUtil {
+public class EncryptUtil {
 	
 	private static final String ALGORITHM = "AES";
     private static final int KEY_SIZE = 256;
