@@ -17,7 +17,7 @@ The project follows a layered architecture pattern, ensuring modularity, etc. Th
 
 - **Presentation Layer**: Handles HTTP requests and responses, acting as the entry point for the API.
 - **Service Layer**: Implements business logic and processes data before passing it between the controller and other layers.
-- **Data Transfer Objects (DTOs)**: Defines structured objects to encapsulate data being sent and received.
+- **Repository Layer**: Handles data persistence operations.
 - **Exception Handling Layer**: Centralized handling of application exceptions to ensure consistent error responses.
 
 <img src="images/diagrama.png" alt="Architecture Diagram" width="500"/>
