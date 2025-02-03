@@ -20,7 +20,7 @@ The project follows a layered architecture pattern, ensuring modularity, etc. Th
 - **Repository Layer**: Handles data persistence operations.
 - **Exception Handling Layer**: Centralized handling of application exceptions to ensure consistent error responses.
 
-<img src="images/diagrama.png" alt="Architecture Diagram" width="500"/>
+<img src="images/diagrama.png" alt="Architecture Diagram" width="800"/>
 
 ---
 
