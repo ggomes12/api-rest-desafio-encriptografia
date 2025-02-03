@@ -148,5 +148,5 @@ The API documentation is available at:
 <br>
 
 <img src="images/swagger-encrypt.PNG" alt="Swagger UI" width="800"/>
-```
+
 
