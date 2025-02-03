@@ -20,7 +20,7 @@ The project follows a layered architecture pattern, ensuring modularity, etc. Th
 - **Data Transfer Objects (DTOs)**: Defines structured objects to encapsulate data being sent and received.
 - **Exception Handling Layer**: Centralized handling of application exceptions to ensure consistent error responses.
 
-<img src="images/diagrama-emprestimos.png" alt="Architecture Diagram" width="800"/>
+<img src="images/diagrama.png" alt="Architecture Diagram" width="500"/>
 
 ---
 
@@ -35,7 +35,7 @@ The project follows a layered architecture pattern, ensuring modularity, etc. Th
 
 ## Project Structure
 
-<img src="images/estrutura.PNG" alt="Project Structure" width="600"/>
+<img src="images/estrutura.PNG" alt="Project Structure" width="500"/>
 
 ---
 
@@ -137,16 +137,4 @@ The application will start on `http://localhost:8080`.
 
 <img src="images/postman2.PNG" alt="get" width="500"/>
 
-
-
-## Swagger Documentation
-
-The API documentation is available at:
-
-`http://localhost:8080/swagger-ui/index.html`
-
-<br>
-
-<img src="images/swagger-encrypt.PNG" alt="Swagger UI" width="800"/>
-
-
+---
